@@ -22,7 +22,7 @@ function App() {
 
       <form action="" className='d-flex justify-content-center flex-sm-column align-items-center  flex-md-row px-2' style={{width:'100%',marginTop:'50px'}}>
       <Button  onClick={()=>handleColor('yellow')} variant="outlined" style={{color:'black',borderColor:'black'}} className='mb-3'>Yellow</Button>
-      <Button  onClick={()=>handleColor('lime')} variant="outlined" style={{color:'black',borderColor:'black'}} className='mb-3 mx-lg-5'>green</Button>
+      <Button  onClick={()=>handleColor('lime')} variant="outlined" style={{color:'black',borderColor:'black'}} className='mb-3 mx-5'>green</Button>
       <Button  onClick={()=>handleColor('orange')} variant="outlined" style={{color:'black',borderColor:'black'}} className='mb-3'>Orange</Button>
       </form>
 
